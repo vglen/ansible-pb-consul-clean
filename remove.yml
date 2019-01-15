@@ -7,4 +7,4 @@
 
   tasks:
   - name: ' remove consul local.snapshot'
-    shell:  rm -rf  /var/consul/serf/local.snapshot
+    raw:  rm -rf  /var/consul/serf/local.snapshot

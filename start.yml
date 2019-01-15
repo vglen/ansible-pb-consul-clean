@@ -7,4 +7,4 @@
 
   tasks:
   - name: ' start consul agent'
-    shell:  service consul start
+    raw:  service consul start
