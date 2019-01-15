@@ -1,6 +1,7 @@
 - hosts: localhost
   become: true
   gather_facts: False
+  user: ubuntu
   vars_files:
   - "vars/main.yml"
 

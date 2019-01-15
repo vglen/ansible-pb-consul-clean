@@ -1,10 +1,11 @@
 ---
 - hosts: localhost
   become: true
+  user: ubuntu
   gather_facts: False
   vars_files:
   - "vars/main.yml"
 
   tasks:
-  - name: ' consul agent stop'
+  - name: 'consul agent stop'
     shell:   service consul stop
