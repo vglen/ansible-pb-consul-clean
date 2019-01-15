@@ -6,4 +6,4 @@
 
   tasks:
   - name: 'echo helloworld'
-    shell:  echo helloworld
+    raw:  echo helloworld
